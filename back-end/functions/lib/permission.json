@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "blog-cayghe",
+    "private_key_id": "1379ac5a3446bef8d0ffb339d621674c87cbe25c",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDD9MmjoOjOW2Fy\nyxuDYI6vaa95Dnw2VMXPbsd8vd/nxR+OCRBxXrBlUOMXcFsBGFAP5zZ8XxznFHWD\nOz1skCBxg3j92+70b154oaNsYAHygITn9CMTK8PnIF/9QfHbknyJTpKWjyPrldzx\nnm1tYDQNTVLS8d0yR5mRDF2YJRgzvZIBsN4xVBhIYm1EpPV9abGO8+a0Jr+jT2EG\nEBuSq3i/czE92vG34A3frhPNDTRNVW0e4dAAgEAVEjdG5s/NyOjoQYWrtaYvox47\nSptqiq0S7+Ol9IkNaJZBkGuL5iAwH4evj9PCu3BE2wysnSn7QcsYu1k8tV7E8X0G\ngoFuDAb5AgMBAAECggEAK9+3c+j3pxhjsbGTF++7EsBNdwPMwNdrML4DcUUMCFck\n8QbLhS6nvQ+GwP05iv24E0937hHXpU953ieZ4aBFe1Tt9pzTHCyBUO4T6pR2aybm\nWw7Y+ZZfdvTTOR+WOMzMEGwkuwwShVFZFkocAxS6os3QwQVBOtw4IHdNz15i1FZ1\nuOLBSdhLxtTSPXwzT9LHv5F5cE1eVgDdbaYkRTr61ckk+W93DTpp3H7NB2r9bpjf\nntPP1l2S2FSGW6ZmbuoL+bk+w1IBbSd3i2MqAswVB6svJaUlEWIjj+gAeWHDWIX7\nKk9XRCVm0mrZ8DzUkmxzuGKe9nTvX3sAZJzVshYKLwKBgQDiM+yj6Hdor2BHR5IT\n9N9NzoHWUzemSTWW5rrnwqjZ4rbMDHNzWk8jAbVOcWkitv6DosjzkzxEqwj2HECL\nTHVenUi/XTYk/2ntm7mJK139uVX5Q09QQiepLmp7gWI9cUnV4pdh3wiXSP6j5XCm\nBuT3ba/PdvK5+6Yye/HE147exwKBgQDdxODCHKj7OcaBrnzGixhJ8UG6guNYsYMz\ntTa5k5JMpDFDqNorTLscLBgPhxCP1jSbzRNqNfQHu6lW78ocHHpIKo1vj9kAHfM8\nLOV/CxYungN8r2wHXiYaaJUJ3SIGWT0R6qfMKE3BQEqhKc1xzA+bQgvstbPjEk0D\nCP7e2p8sPwKBgExS2tjfWlMPQbwrUQW8zQ/yyupnP9Kyxws4pP4IN3L1RVqKJPZa\nFXOpYuSp7aCSAESoS4esOVyuHSL1m22lCcE37tDrAZbwO2y565t174vp2jF13bAl\n8j3qdHFh0aULsa8iepPCbqKlNY5Vn3HVx7IY54ZoCzRnzccg/Q2+8e0HAoGAW8HV\n7PrGwAuLoqR7Y/qxNgboVy9Iua3Yx1A3MFlqsuNMrt3yRvAciu+DlQkhRSIv6jbT\nzaI9MeXnjtzwFumBftJ8aqht9KpvtXouCn6f0vH2J2S9od7GjS6wW8BvD4lkx0D7\n5HDYmxjqx/vv0SHJY0fUf0A/CbjMvHDAY5y5NykCgYBVjRrqzXYMwqSVjSN0ORtw\nB7BMzXz63TQr4j5UGGQ4thpDW2jXhpWy73ClaTw2+xbIh1SMZXwYg9Io65bhtncw\nUEajH53cC3HArdc7yPiwAXbBRH+x6cPacZVenAkvXiie1vEh/6bCBMiJSStCfvz4\nzeV3bEvKXc6S8uJcwwGLUg==\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-4hnd3@blog-cayghe.iam.gserviceaccount.com",
+    "client_id": "110464595565862043335",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-4hnd3%40blog-cayghe.iam.gserviceaccount.com"
+}
