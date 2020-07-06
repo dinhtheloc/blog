@@ -1,5 +1,4 @@
 interface Article {
-    uid: string;
     article_id: string;
     slug_name: string;
     title: string;
