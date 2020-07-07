@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Loading from './components/Loading/Loading';
 import Home from './views/Home/Home';
 import Article from './views/Article/Article';
 import {
@@ -12,6 +13,8 @@ import {
 } from "react-router-dom";
 
 function App() {
+  
+
   return (
     <Router>
       <Header></Header>
@@ -25,6 +28,7 @@ function App() {
 
       </Switch>
       <Footer></Footer>
+      <Loading></Loading>
     </Router>
   );
 }
