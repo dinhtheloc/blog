@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './views/home/home.component';
-import { ArticleComponent } from './views/article/article.component';
 import { LoginComponent } from './views/login/login.component';
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
 
@@ -14,8 +12,22 @@ const routes: Routes = [
       {
         path: 'dashboard',
         loadChildren: './views/dashboard/dashboard.module#DashboardModule'
+      },
+      {
+        path: 'articles',
+        loadChildren: './views/articles/articles.module#ArticlesModule'
       }
     ]
+  },
+  {
+    path: '',
+    redirectTo: '/dashboard',
+    pathMatch: 'full',
+  },
+  {
+    path: '**',
+    redirectTo: '/dashboard',
+    pathMatch: 'full',
   }
 ];
 

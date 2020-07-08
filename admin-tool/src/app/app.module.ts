@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ArticleComponent } from './views/article/article.component';
 import { LoginComponent } from './views/login/login.component';
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
 import { NavComponent } from './components/nav/nav.component';
+import { AuthGuard } from './services/guard/auth.guard';
+import { PermissionGuard } from './services/guard/permission.guard';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,6 @@ import { NavComponent } from './components/nav/nav.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    ArticleComponent,
     LoginComponent,
     AdminLayoutComponent,
     NavComponent
@@ -26,7 +26,10 @@ import { NavComponent } from './components/nav/nav.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    AuthGuard,
+    PermissionGuard
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
