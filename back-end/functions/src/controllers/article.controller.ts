@@ -1,7 +1,8 @@
 import Article from '../interfaces/article.interface';
+import { Application } from 'express';
 import { v4 as uuidv4 } from 'uuid';
 
-function ArticleController(app: any, db:any) {
+function ArticleController(app: Application, db:any) {
     // create
     app.post('/api/article/create', (req:any, res:any) => {
         (async () => {
